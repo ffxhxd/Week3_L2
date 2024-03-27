@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week3_L2</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous">
+</head>
+<body>
+  <div class="banner hide-banner">
+    SUPER SALE UPTO 40% OFF
+  </div>
+  <img class="res-image" src="./Assets/logo.png" alt="logo">
+<header>
+  <div class="container">
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Community</a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#"><img class="logo-image" src="./Assets/logo.png" alt="logo"></a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#"><img src="./Assets//Link ⏵ search.svg" alt="iconslinks"></a></li>
+        <li><a href="#"><img src="Assets//Link ⏵ search.svg" alt="iconslinks"></a></li>
+        <li><a href="#"><img src="./Assets//Link ⏵ cart.svg" alt="iconslinks" ></a></li>
+      </ul>
+    </nav>
+    <div class="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </div>
+</header>
+<section class="hero-section-container">
+    <h1>Stock photos</h1>
+    <p>John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.</p>
+    <button>
+      <i class="fa-solid fa-play"></i> EXPLORE
+    </button>
+</section>
+<section class="search-section-container">
+    <div class="search-bar">
+      <span>
+        <input id="searchInput" placeholder="India">
+        <i id="searchIcon" class="fa fa-search" aria-hidden="true"></i> 
+      </span>
+    </div>
+
+    <div class="search-results-container">
+        <div class="search-image">
+          <img id="searchImage" src="" alt="image-poster">
+        </div>
+        <div class="search-data">
+            <h2 id="searchTitle">
+              <!-- Title will be filled dynamically -->
+            </h2>
+            <span class="gener" id="searchGenres">
+              <!-- Genres will be filled dynamically -->
+            </span>
+           <a class="explore-more-btn" href="">
+            <button class="">
+              EXPLORE MORE
+            </button>
+          
+           </a>
+        </div>
+    </div>
+</section>
+<div class="Similar-res">
+  <h2>Similar Results</h2>
+</div>
+<section class="recomended-movies-container">
+  <div class="wrapper">
+    <i id="left" class="fa-solid fa-angle-left"></i>
+    <ul class="carousel" id="carousel">
+      <!-- Carousel content will be filled dynamically -->
+    </ul>
+    <i id="right" class="fa-solid fa-angle-right"></i>
+  </div>
+</section>
+<div class="Similar-res">
+  <h2>Favourite List</h2>
+</div>
+<section class="favourite-list-container">
+  
+</section>
+<script src="script.js"></script>
+</body>
+</html>
